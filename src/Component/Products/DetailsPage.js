@@ -51,11 +51,13 @@ const DetailsPage = () => {
                 onClick={handaleIncrement}
                 size="xl"
                 icon={faPlusCircle}
+                className={Styles.plusIcon}
               />
               <h3 className=" mx-4">{count}</h3>
               <FontAwesomeIcon
                 onClick={handaleDecrement}
                 size="xl"
+                className={Styles.minusIcon}
                 icon={faMinusCircle}
               />
             </div>

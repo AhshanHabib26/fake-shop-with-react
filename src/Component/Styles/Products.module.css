@@ -5,8 +5,3 @@
     color: #ff6347;
     font-weight: 900;
 }
-.ProductsContainer{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-}

@@ -3,6 +3,12 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
 }
+
+@media only screen and (min-width: 258px) and ( max-width: 992px) {
+    .itemsContainer{ grid-template-columns: repeat(1, 1fr);}
+}
+
+
 .itemsImage{
     width: 400px;
     cursor: pointer;
@@ -33,4 +39,7 @@
     border-radius: 5px;
     background-color: #198754;
     color: #fff;
+}
+.plusIcon , .minusIcon{
+    cursor: pointer;
 }
