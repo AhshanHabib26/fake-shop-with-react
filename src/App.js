@@ -5,6 +5,7 @@ import Home from './Component/Home/Home';
 import DetailsPage from './Component/Products/DetailsPage';
 import { ToastContainer } from 'react-toastify';
 import NotFound from './Component/PageNotFound/NotFound';
+import Footer from './Component/Footer/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/products/:id' element={<DetailsPage/>}/>
         <Route path='*' element={<NotFound/>}/>
       </Routes>
+      <Footer/>
       <ToastContainer/>
     </div>
   );
