@@ -1,0 +1,31 @@
+.prdCategory{
+    font-size: 14px;
+    font-variant: small-caps;
+    color: #049904;
+}
+.prdPrice{
+    font-size: 24px;
+    font-weight: 600;
+    color: tomato;
+}
+.exploreBtn{
+    border: none;
+    padding: 14px 18px;
+    border-radius: 5px;
+    background-color: #198754;
+    color: #fff;
+    text-decoration: none;
+}
+.exploreBtn:hover{
+    background-color: #198754;
+    color: #fff;
+}
+
+
+.buyBtn{
+    border: none;
+    padding: 14px 18px;
+    border-radius: 5px;
+    background-color: rgb(230, 105, 84);
+    color: #fff;
+}

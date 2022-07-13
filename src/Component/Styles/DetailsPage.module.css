@@ -1,0 +1,29 @@
+.itemsContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+.itemsImage{
+    width: 400px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.itemsImage:hover{
+    transform: scale(1.075);
+    opacity: .75;
+}
+.itemsHeading{
+    font-size: 32px;
+    font-variant-caps: all-petite-caps;
+    color: #363636;
+}
+.itemsDes{
+    font-size: 18px;
+    color: #363636;
+    text-align: justify;
+}
+.itemsCategory{
+    font-size: 16px;
+    font-variant: small-caps;
+    color: #049904;
+}
